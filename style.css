@@ -7,7 +7,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 .canvas {
@@ -71,4 +71,8 @@ body {
 
 .controls_colors .controls_color:active {
   transform: scale(0.98);
+}
+
+.controls_range {
+  margin-bottom: 10px;
 }
